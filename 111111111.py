@@ -77,9 +77,9 @@ def capture_stock_history():
         # csv_file_path = '{}.csv'.format(today)
         # df.to_csv(csv_file_path, index=False)
         # 存入数据库中
-        user = "hy"
-        password = "hy"
-        host = "31.16.1.83"
+        user = "ckq"
+        password = "ckq"
+        host = "31.00.0.00"
         port = 1521
         service_name = "jiaohuan"
         dsn = oracledb.makedsn(host, port, service_name=service_name)
